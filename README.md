@@ -7,6 +7,9 @@ Create a minimalistic, Redux-inspired store to manage and log the state of a cou
 
 Observer Pattern resource from Refactoring Guru: https://refactoring.guru/design-patterns/observer
 
+## Reflection and Discussion 
+To run this code in your VS code terminal you need to have node installed. In the terminal type "node index.js" and the code should run, to edit the state of the value type "store.dispatch({ type: ADD }); " in the terminal and change the "type: " to either ADD, SUBTRACT or RESET.  In this approach I made a Redux-inspired store, at first I coded using the user stories in a way that made sense to me and still ran its tasks as intended without making it a redux-inspired code. I was not too confident in my understanding of redux stores so I did some further research and gained a better understanding, with this understanding I refactored my initial code into a redux-inspired store. Some of the challenges that I faced was the initial understanding of what a store was and its functions, I also had difficulty logging the new state. I overcame these challenges by doing extra research as well as reaching out to my coach.
+
 ## User Stories (Gherkin Syntax)
 Your challenge will encompass the following scenarios, tested through your store's implementation:
 
